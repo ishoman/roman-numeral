@@ -67,51 +67,51 @@ $(document).ready(function() {
 //       }
 //     }
 
-function romanNumeral(input) {
-  if (input === 1) {
-      return "I";
-    } else if (input === 2) {
-      return "II";
-    } else if (input === 3) {
-      return "III";
-    } else if (input === 5) {
-      return "V";
-    }  else if (input === 10) {
-      return "X";
-    } else if (input === 20) {
-      return "XX";
-    } else if (input === 30) {
-      return "XXX";
-    } else if (input === 50) {
-      return "L";
-    }  else if (input === 100) {
-      return "C";
-    } else if (input === 200) {
-      return "CC";
-    } else if (input === 300) {
-      return "CCC";
-    } else if (input === 500) {
-      return "D";
-    }  else if (input === 1000) {
-      return "M";
-    } else if (input === 2000) {
-      return "MM";
-    } else if (input === 3000) {
-      return "MMM";
-    } else {
-      return "I don't know how to do that - my bad..."
-    }
-  }
+// function romanNumeral(input) {
+//   if (input === 1) {
+//       return "I";
+//     } else if (input === 2) {
+//       return "II";
+//     } else if (input === 3) {
+//       return "III";
+//     } else if (input === 5) {
+//       return "V";
+//     }  else if (input === 10) {
+//       return "X";
+//     } else if (input === 20) {
+//       return "XX";
+//     } else if (input === 30) {
+//       return "X-XX";
+//     } else if (input === 50) {
+//       return "L";
+//     }  else if (input === 100) {
+//       return "C";
+//     } else if (input === 200) {
+//       return "CC";
+//     } else if (input === 300) {
+//       return "CCC";
+//     } else if (input === 500) {
+//       return "D";
+//     }  else if (input === 1000) {
+//       return "M";
+//     } else if (input === 2000) {
+//       return "MM";
+//     } else if (input === 3000) {
+//       return "MMM";
+//     } else {
+//       return "I don't know how to do that - my bad..."
+//     }
+//   }
 
 //Front end Logic
-$(document).ready(function() {
-  $("form#roman-numeral").submit(function(event) {
-    event.preventDefault();
-    var input = parseInt($("#input").val());
-    var romanNumeral1 = romanNumeral(input);
-    $("#result").text(romanNumeral1);
-  });
-});
+// $(document).ready(function() {
+//   $("form#roman-numeral").submit(function(event) {
+//     event.preventDefault();
+//     var input = parseInt($("#input").val());
+//     var romanNumeral1 = romanNumeral(input);
+//     $("#result").text(romanNumeral1);
+//   });
+// });
 
 //Helper Functions
 // var returnsI = function(ones) {
