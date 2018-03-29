@@ -7,19 +7,33 @@
 
 // function romanNumeral(input) {
   function romanNumeralI(input) {
-    debugger;
-    if (input === 1) {
+  if (input === 1) {
       return "I";
     } else if (input === 2) {
       return "II";
     } else if (input === 3) {
       return "III";
+    }  else if (input === 10) {
+      return "X";
+    } else if (input === 20) {
+      return "XX";
+    } else if (input === 30) {
+      return "XXX";
     } else {
       return "I don't know how to do that - my bad..."
     }
   }
+
 // }
 
+//Helper Functions
+// var returnsI = function(ones) {
+//   if (ones === 1 || ones === 2 || ones === 3) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
 
 
